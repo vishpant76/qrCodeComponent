@@ -3,27 +3,30 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit";
-  /* background-color: hsl(212, 45%, 89%); */
   /* border: #00ff00 solid 1px; */
 }
 
 body {
   background-color: hsl(212, 45%, 89%);
-}
-
-.card-div {
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
+
+/* .card-div {
+
+} */
 
 .qr-card {
   background-color: hsl(0, 0%, 100%);
   /* max-width: 800px; */
-  max-width: 400px;
+  max-width: 320px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 16px;
   border-radius: 16px;
   gap: 20px;
   text-align: center;
@@ -47,7 +50,7 @@ p {
 
 .attribution {
   font-size: 11px;
-  /* text-align: center; */
+  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
