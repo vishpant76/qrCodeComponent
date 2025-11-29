@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit";
-  /* border: #00ff00 solid 1px; */
 }
 
 body {
@@ -16,13 +15,8 @@ body {
   gap: 20px;
 }
 
-/* .card-div {
-
-} */
-
 .qr-card {
   background-color: hsl(0, 0%, 100%);
-  /* max-width: 800px; */
   max-width: 320px;
   display: flex;
   flex-direction: column;
@@ -30,13 +24,12 @@ body {
   border-radius: 16px;
   gap: 20px;
   text-align: center;
+  box-shadow: 4px 4px 8px hsl(212, 45%, 89%);
 }
 
 .qr-img {
   width: 100%;
-  /* height: 400px; */
   height: auto;
-  /* object-fit: cover; */
   border-radius: 10px;
 }
 
