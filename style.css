@@ -16,34 +16,36 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  font-size: 18px;
+  gap: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .qr-card {
   background-color: hsl(0, 0%, 100%);
   max-width: 90vw;
-  width: 320px;
+  width: 20rem;
   display: flex;
   flex-direction: column;
-  padding: clamp(12px, 2vw, 24px);
-  border-radius: 16px;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+  border-radius: 1rem;
   gap: 1.25rem;
   text-align: center;
-  filter: drop-shadow(2px 2px 4px var(--light-blue-bg));
+  filter: drop-shadow(0.125rem 0.125rem 0.25rem var(--light-blue-bg));
 }
 
 .qr-img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
-h3 {
+h1 {
   font-weight: 700;
+  font-size: 1.3rem;
 }
 p {
   font-weight: 400;
+  font-size: 0.938rem;
+  color: hsl(216, 15%, 48%);
   text-align: center;
-  font-size: 15px;
 }
