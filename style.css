@@ -30,7 +30,7 @@ body {
   border-radius: 1rem;
   gap: 1.25rem;
   text-align: center;
-  filter: drop-shadow(0.125rem 0.125rem 0.25rem var(--light-blue-bg));
+  box-shadow: 0.125rem 0.125rem 0.25rem var(--light-blue-bg);
 }
 
 .qr-img {
